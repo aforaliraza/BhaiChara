@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="Driver Booked"
+        android:id="@+id/title_driverConfirmedDCIC"
+        android:textSize="30sp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/location"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/title_driverConfirmedDCIC"
+        android:id="@+id/locationDCIC"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/car"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/locationDCIC"
+        android:id="@+id/carDCIC"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/calendar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/carDCIC"
+        android:id="@+id/calendarDCIC"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/phone"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/calendarDCIC"
+        android:id="@+id/mobileDCIC"/>
+
+
+
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/sourceDriverConfirmedDCIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Source"
+        android:layout_below="@id/title_driverConfirmedDCIC"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/locationDCIC"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/destination_driverConfirmedDCIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Destination"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/title_driverConfirmedDCIC"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/car_type_driverConfirmedDCIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Car Type"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/carDCIC"
+        android:layout_below="@id/sourceDriverConfirmedDCIC"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/car_number_driverConfirmedDCIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Car Number"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/destination_driverConfirmedDCIC"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/date_driverConfirmedDCIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Date"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/calendarDCIC"
+        android:layout_below="@id/car_type_driverConfirmedDCIC"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/time_driverConfirmedDCIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Time"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/car_number_driverConfirmedDCIC"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/phoneNumber_driverConfirmedIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/mobileDCIC"
+        android:hint="Phone Number"
+        android:textColor="@color/black"
+        android:layout_below="@id/date_driverConfirmedDCIC"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/red"
+        android:layout_alignParentBottom="true"
+        android:text="Back To DriversList"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:id="@+id/backToList_driverConfirmedIC"/>
+
+
+</RelativeLayout>

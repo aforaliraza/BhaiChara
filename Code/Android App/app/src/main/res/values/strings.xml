@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Bhai Chara</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="emailID">Email ID</string>
+    <string name="groupCode">Group Code</string>
+    <string name="verifyBT">Verify</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="signUpBT">SignUp</string>
+    <string name="updateProfileBT">Update</string>
+    <string name="updatingText">Updating User Account Against</string>
+    <string name="creatingText">Creating User Account Against</string>
+    <string name="passengerNameAdapter">The passenger name was:</string>
+    <string name="driverNameAdapter">The driver name was:</string>
+    <string name="sourceAdapter">The pickUp was:</string>
+    <string name="destinationAdapter">The DropOFF was</string>
+    <string name="fareAdapter">The fare of the ride was:</string>
+    <string name="bookARideRolesActivity">Book A Ride:</string>
+    <string name="addARideRolesActivity">Add A Ride:</string>
+    <string name="title_activity_driver_maps">Map</string>
+
+</resources>

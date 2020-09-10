@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/sourceICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Source"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/location"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/location"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/location"/>
+
+
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="24dp"
+        android:id="@+id/destination_ICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Destination"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/calendar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/calendar"
+        android:layout_below="@id/car"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/car"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/car"
+        android:layout_below="@id/location"/>
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/car_type_ICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Car Type"
+        android:layout_toRightOf="@id/car"
+        android:textColor="@color/black"
+        android:layout_below="@id/sourceICRAdapter"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/car_number_ICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Car Number"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/destination_ICRAdapter"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/date_ICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Date"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/calendar"
+        android:layout_below="@id/car_type_ICRAdapter"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/time_ICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Time"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/car_number_ICRAdapter"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/phoneNumber_ICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Phone Number"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/mobile"
+        android:layout_below="@id/date_ICRAdapter"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/seats_ICRAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="SeatsAvailable"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/time_ICRAdapter"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/phone"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mobile"
+        android:layout_below="@id/calendar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/seats_ICRAdapter"
+        android:background="@color/black"/>
+
+</RelativeLayout>

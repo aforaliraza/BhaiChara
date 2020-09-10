@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="Billing Class"
+        android:id="@+id/title_billingActivity"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/driverFareBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/title_billingActivity"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/driverFareAmountBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/title_billingActivity"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/firstRiderFareBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/driverFareBillingActivity"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/firstRiderFareAmountBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/driverFareAmountBillingActivity"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/secondRiderFareBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/firstRiderFareBillingActivity"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/secondRiderFareAmountBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/firstRiderFareAmountBillingActivity"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/thirdRiderFareBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/secondRiderFareBillingActivity"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/thirdRiderFareAmountBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/secondRiderFareAmountBillingActivity"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fourthRiderFareBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/thirdRiderFareBillingActivity"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/fourthRiderFareAmountBillingActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Driver Fare"
+        android:layout_below="@id/thirdRiderFareAmountBillingActivity"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:text="Fare Collected"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>

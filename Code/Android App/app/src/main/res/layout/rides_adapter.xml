@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    >
+   <ImageView
+       android:layout_width="49dp"
+       android:layout_height="80dp"
+       android:src="@drawable/stod"
+       android:layout_alignParentLeft="true"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="20dp"
+       android:id="@+id/routeRADPTR"
+       />
+
+
+   <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/startLatRidesHistoryAdaoter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+       android:layout_toRightOf="@id/routeRADPTR"
+        android:hint="Start Latitude"
+        android:textColor="@color/black"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/startLong_ridesHistoryAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Start Longitude"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/endLat_ridesHistoryAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="End Latitude"
+        android:textColor="@color/black"
+        android:layout_below="@id/startLatRidesHistoryAdaoter"
+        android:layout_toRightOf="@id/routeRADPTR"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/endLong_ridesHistoryModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="End Longitude"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/startLong_ridesHistoryAdapter"
+        />
+   <ImageView
+       android:layout_width="44dp"
+       android:layout_height="44dp"
+       android:src="@drawable/calendar"
+       android:layout_alignParentLeft="true"
+       android:paddingLeft="14dp"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="20dp"
+       android:id="@+id/calendarRADPTR"
+       android:layout_below="@id/endLat_ridesHistoryAdapter"/>
+
+   <TextView
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/date_ridesHistoryAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Date"
+       android:layout_toRightOf="@id/calendarRADPTR"
+        android:textColor="@color/black"
+        android:layout_below="@id/endLat_ridesHistoryAdapter"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/time_ridesHistoryAdapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Time"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/endLong_ridesHistoryModel"
+        />
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+      android:background="@color/black"
+      android:layout_below="@id/date_ridesHistoryAdapter"
+      android:layout_marginTop="34dp"
+       />
+
+</RelativeLayout>

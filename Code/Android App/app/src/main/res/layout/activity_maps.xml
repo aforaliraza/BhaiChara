@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="12"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/rider_mapsactivity"
+            android:text="Rider"
+            android:textSize="34sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/green"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/driver_mapsactivity"
+            android:text="Driver"
+            android:textSize="34sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="8"
+    tools:context=".MapsActivity" >
+
+
+
+
+</fragment>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="9"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_work_home_maps_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Work To Home"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_home_to_work_maps_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Home To Work"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tv_intercity_maps_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="Intercity"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/textview_confirm_a_ride_maps_activity"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/red"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/textview_book_a_ride_maps_activity"
+        android:text="Find A Ride"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/green"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

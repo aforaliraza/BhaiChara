@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="10"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/bhaichara_interintra_rider"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:background="@color/green"
+        android:text="Bhai Chara"
+        android:layout_weight="0.8"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:id="@+id/titleimage_blankview_interintra_rider"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/live_to_ride_rider"
+            android:id="@+id/live_to_ride_interintrarider"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.95"
+        android:id="@+id/divider_borntoride_tv_intrainterrider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/inter_city_intra_inter_rider_tv"
+        android:text="InterCity Rides"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:background="@color/green"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:id="@+id/divider_intrainter__intrainterrider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/intra_city_ride_inter_intra_rider_tv"
+        android:text="Intracity Rides"
+        android:gravity="center"
+        android:textSize="34sp"
+        android:textColor="@color/white"
+        android:background="@color/green"/>
+
+
+</LinearLayout>

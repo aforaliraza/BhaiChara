@@ -1,0 +1,3 @@
+
+light #34495e
+Dark #2c3e50

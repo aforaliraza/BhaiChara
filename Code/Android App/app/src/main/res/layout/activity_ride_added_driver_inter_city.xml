@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="Ride Added"
+        android:id="@+id/title_rideAddedDriverIC"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/sourceRideAddedDriverIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Source"
+        android:layout_below="@id/title_rideAddedDriverIC"
+        android:textColor="@color/black"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/destination_rideAddedDriverIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Destination"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/title_rideAddedDriverIC"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/car_type_rideAddedDriverIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Car Type"
+        android:textColor="@color/black"
+        android:layout_below="@id/sourceRideAddedDriverIC"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/car_number_rideAddedDriverIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Car Number"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/destination_rideAddedDriverIC"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/date_rideAddedDriverIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:hint="Date"
+        android:textColor="@color/black"
+        android:layout_below="@id/car_type_rideAddedDriverIC"/>
+
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="23dp"
+        android:id="@+id/time_rideAddedDriverIC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:hint="Time"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:layout_below="@id/car_number_rideAddedDriverIC"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Back To InterCity Rides"
+        android:id="@+id/backToInterCity_rideAddedDriverIC"/>
+</RelativeLayout>

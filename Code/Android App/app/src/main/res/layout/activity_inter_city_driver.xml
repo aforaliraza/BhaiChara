@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="67"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InterCityRiderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/bhaichara_intercitydriver_tv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/green"
+            android:text="Bhai Chara"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:layout_height="0dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/vehicle_intercity_driveractivity"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/appcolordark"
+            android:hint="Car Details"
+            android:inputType="text"
+            android:textSize="17sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/vehicle_number_intercity_driveractivity"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/appcolordark"
+            android:hint="Registration Number"
+            android:inputType="text"
+            android:textSize="17sp"
+
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/source_intercity_driveractivity"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/appcolordark"
+            android:hint="Source"
+            android:inputType="text"
+            android:textSize="17sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:layout_height="0dp">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/destination_intercity_driveractivity"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/appcolordark"
+            android:hint="Destination"
+            android:inputType="text"
+            android:textSize="17sp"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_weight="10"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/plus"
+                android:id="@+id/add_seatsrequired_intercitydriveractivity_iv">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+            <TextView
+                android:text="0"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/carcapacity_intercitydriveractivity_tv"
+                ></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/minus"
+                android:id="@+id/deduct_carcapacity_intercitydriveractivity_iv"
+                ></ImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/date_intercity_driveractivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:inputType="date"
+            android:textColor="@color/appcolordark"
+            android:textSize="17sp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="Date"
+            android:textSize="17sp"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:id="@+id/datebutton_intercity_driveractivity"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/divider_date_time_intercity_driver"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:weightSum="4"
+        android:orientation="horizontal">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/time_intercity_driveractivity"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:textColor="@color/appcolordark"
+            android:inputType="time"
+            android:textSize="17sp"
+
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:text="Time"
+            android:textSize="17sp"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:id="@+id/timebutton_intercity_driveractivity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="0dp">
+
+        <Button
+            android:id="@+id/searchdriver_intercitydriveractivity_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Ride"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:background="@color/green"/>
+    </LinearLayout>
+
+</LinearLayout>
+
